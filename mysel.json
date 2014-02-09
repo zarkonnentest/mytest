@@ -1,0 +1,20 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.metafilter.com/"
+    },
+    {
+      "type": "verifyTextPresent",
+      "text": "mega-culture"
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": []
+}
